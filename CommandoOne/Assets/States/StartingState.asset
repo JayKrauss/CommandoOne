@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d0225b61a63c784f93e6de6636d3c37, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "You find yourself in a padded container. \nIn front of you is a small
+    window at eye level. The glass is frosted and you are very cold. \nAbove your
+    head a light flashes red. Your breath is visible as a cloud of white in your vision.
+    \nYou shivver and try to rub your arms, only to find that your hands will not
+    move. Looking down, you can see that you are restrained to the inside of the pod.
+    \nIn front of your right pointer finger is a large red button, just barely in
+    reach.\n\nWhat do you do?\n\n1. Press the button.\n2. Attempt to break free."
+  nextStates:
+  - {fileID: 11400000, guid: c975051c43703cd468b76ba0b05b28cc, type: 2}
+  - {fileID: 11400000, guid: a5ba4628ddf1f454fbc2039c065fed81, type: 2}
